@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  background-color: #070707;
+  width: 1020px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.logo img {
+  width: 180px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: #c9f31d;
+  transition: all 0.3s ease;
+}
+
+.btn.disable {
+  background-color: gray;
+  cursor: not-allowed;
+  color: #fff;
+}
+
+.btn.clicked {
+  transform: scale(1.1);
+}
+
+.output {
+  background-color: #1f1f1f;
+  width: 30%;
+  height: 15%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.output p {
+  font-size: 50px;
+  color: #fff;
+}
